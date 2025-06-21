@@ -1,6 +1,11 @@
-<html>
-  <head>
-    <!-- Google tag (gtag.js) -->
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: home
+---
+# Under Construction
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-K060ZYXSLG"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -9,9 +14,3 @@
 
   gtag('config', 'G-K060ZYXSLG');
 </script>
-    <title>Handige Kerel - under construction</title>
-  </head>
-<body>
-  <h1> Under construction </h1>
-</body>
-</html>
