@@ -160,6 +160,10 @@ header.top {
     background: #1f4390
 }
 
+header.top.small {
+    height: 350px;
+}
+
 header.top.small header.page-title {
     position: absolute;
     left: 0;
@@ -195,6 +199,15 @@ header.top .img {
     height: 100%;
     position: absolute;
     background: url(../images/photo-header.jpg) 50% 35%/cover no-repeat fixed;
+    z-index: 1
+}
+
+header.top .img-large {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(../images/photo-header.jpg);
+    object-fit: cover;
     z-index: 1
 }
 
@@ -1367,6 +1380,18 @@ article.content img {
     object-fit: cover
 }
 
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.grid a {
+    text-decoration: none;
+}
+
+
 @media only screen and (max-width: 1760px) {
     .container-fluid {
         padding: 0 15px
@@ -1447,6 +1472,10 @@ article.content img {
 }
 
 @media only screen and (max-width: 991px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     header.top .banner {
         top: 50%;
     }
@@ -1517,6 +1546,10 @@ article.content img {
 }
 
 @media only screen and (max-width: 767px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
     header.top .banner, header.top .slogan {
         position: relative;
         transform: translateY(0)

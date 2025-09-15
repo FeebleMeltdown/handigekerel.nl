@@ -122,7 +122,16 @@
         <header class="page-title" data-aos="fade-left" data-aos-duration="900">
 
           <h1><span>Portfolio</span></h1>
-
+          <div class="grid">
+            {% for post in site.posts %}
+            <a href="{{ post.url }}" class="item">
+              <img class="item-picture" alt="{{ post.title }}" src="{{ post.image }}">
+              <div class="item-content">
+                <h3>{{ post.title }}</h3>
+              </div>
+            </a>
+            {% endfor %}
+          </div>
         </header>
         <div data-aos="fade-right" data-aos-duration="900">
 
