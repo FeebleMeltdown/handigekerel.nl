@@ -1391,6 +1391,10 @@ article.content img {
     text-decoration: none;
 }
 
+.grid .item-picture {
+    object-fit: cover;
+}
+
 
 @media only screen and (max-width: 1760px) {
     .container-fluid {

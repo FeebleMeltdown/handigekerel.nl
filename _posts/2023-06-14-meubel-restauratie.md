@@ -1,6 +1,6 @@
 ---
 layout: item
-title: "Tafel restauratie"
+title: "Meubel restauratie"
 date: 2023-06-14 10:59:05 +0100
 image: /images/projecten/tafel.jpg
 ---
